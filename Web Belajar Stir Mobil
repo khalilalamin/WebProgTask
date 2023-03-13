@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kursus Mengemudi Sorowako</title>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Paket</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Page -->
+  <section id="home">
+    <h1>Kursus Mengemudi Sorowako</h1>
+    <h2>Keunggulan Kursus Mengemudi:</h2>
+    <ul>
+      <li>Pengajar profesional dan berpengalaman</li>
+      <li>Tersedia mobil-mobil berkualitas (Nissan, Toyota, Daihatsu, dll.)</li>
+      <li>Metode belajar yang efektif dan efisien</li>
+    </ul>
+    <h2>Review Positif:</h2>
+    <p>"Sangat puas dengan pelayanan dan hasil belajar mengemudi di Sorowako. Terima kasih!" - Budi S.</p>
+    <p>"Belajar mengemudi jadi lebih mudah dan menyenangkan dengan Sorowako." - Rita W.</p>
+  </section>
+
+  <!-- Paket Page -->
+  <section id="paket">
+    <h1>Paket Kursus Mengemudi</h1>
+    <form>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama"><br><br>
+      <label for="paket">Pilih Paket:</label>
+      <select id="paket" name="paket">
+        <option value="novice">Novice (14 hari)</option>
+        <option value="beginner">Beginner (7 hari)</option>
+      </select><br><br>
+      <label for="jenis-mobil">Pilih Jenis Mobil:</label>
+      <input type="radio" id="mobil-manual" name="jenis-mobil" value="manual">
+      <label for="mobil-manual">Manual</label>
+      <input type="radio" id="mobil-matic" name="jenis-mobil" value="matic">
+      <label for="mobil-matic">Matic</label><br><br>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="detail-pesanan">
+      <h2>Detail Pesanan Anda</h2>
+      <p>Nama: [nama yang diisi oleh user]</p>
+      <p>Jenis Paket: [paket yang dipilih oleh user]</p>
+      <p>Jenis Mobil: [jenis mobil yang dipilih oleh user]</p>
+      <p>Trainer: [nama trainer yang akan mengajar mengemudi]</p>
+      <p>Total Harga: [total harga yang harus dibayar oleh user]</p>
+    </div>
+  </section>
+
+  <!-- About Page -->
+  <section id="about">
+    <h1>About</h1>
+    <p>Lokasi: Jl. Gamalama No.10</p>
+    <p>Kontak/Telepon: 081234567890</p>
+    <p>Email: mengemudisorowako@business.com</p>
+  </section
